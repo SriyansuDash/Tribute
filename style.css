@@ -60,6 +60,8 @@ body {
 
 .yes h1 {
     color: #10b7dd;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
     text-shadow: 0 0 1px blueviolet;
 }
 
@@ -100,7 +102,10 @@ body {
     align-items: center;
     line-height: 40px;
     justify-content: center;
-    margin: 40px auto;
+    margin: 20px auto;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .quote-section {
