@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 body {
     background: linear-gradient(to left, #141410, #3c6c77);
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
     color: #10b7dd;
     overflow-x: hidden;
 }
@@ -45,8 +46,11 @@ body {
 
 .hello h1 {
     text-align: center;
-    font-size: 23px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 33px;
+    font-family: "Edu NSW ACT Cursive", cursive;
+    font-optical-sizing: auto;
+    font-weight:600;
+    font-style: normal ;
     color: rgb(163, 154, 143);
 }
 
@@ -66,7 +70,7 @@ body {
     line-height: 40px;
     height: 30vh;
     width: 56vw;
-    padding-left: 20px;
+    padding: 20px;
     background: linear-gradient(to left, #575739, #0c5666);
     color: #ffffff;
     margin-left: 22px;
@@ -96,7 +100,7 @@ body {
     align-items: center;
     line-height: 40px;
     justify-content: center;
-    margin: 20px auto;
+    margin: 40px auto;
 }
 
 .quote-section {
@@ -122,6 +126,7 @@ body {
 }
 
 .contain {
+    margin-top: 60px;
     animation: slide-up 2s ease;
 
 }
