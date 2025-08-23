@@ -134,7 +134,6 @@ body {
     animation: slide-up 2s ease;
 
 }
-
 @keyframes slide-up {
     from {
         transform: translateY(30vw);
